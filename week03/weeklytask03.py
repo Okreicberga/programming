@@ -3,7 +3,9 @@
 # Author: Olga Kreicberga 
 
 
-inputString = input ('enter a string:')
-#s = "The quick brown fox jumps over the lazy dog." 
+inputString = input ('Please enter a sentence:')
+#s = The quick brown fox jumps over the lazy dog. 
+# [:: -1] - reverse text with all letters. But as we need output only every second letter, 
+# I put [::-2]  
 print( inputString[::-2])
 

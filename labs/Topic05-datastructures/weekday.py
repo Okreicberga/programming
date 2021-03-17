@@ -12,8 +12,6 @@ def check_weekday(date):
     else: 
         print("Yes, unfortunately today is a weekday.")  
   
-date = "2021-02-25"
+date =  (input("Enter the date: "))
 check_weekday(date) 
   
-date = "2021-02-27"
-check_weekday(date)

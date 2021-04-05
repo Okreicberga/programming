@@ -15,9 +15,7 @@ def fibonacci (number):
     # we have one in the list already so number - 1 times
     # this isnot the most efficient code
     # could have used yield
-    for i in range(1,number):
-        fibonacciSequence.append(b)
-        # this is funky code make a = b and b = a + b
+    #        # this is funky code make a = b and b = a + b
         a , b = b, a + b
     logging.debug("%d: %s",number, fibonacciSequence)
     return fibonacciSequence
